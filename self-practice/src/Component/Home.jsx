@@ -1,4 +1,6 @@
 import React from "react";
+import { Navibar } from "./Navigationbar/Navibar";
+
 export const Home = () => {
-  return <h1>This Is Home Page</h1>;
+  return <Navibar />;
 };
