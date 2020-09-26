@@ -1,5 +1,4 @@
 import React from "react";
-
 export const Home = () => {
-  return <p> This is Home page</p>;
+  return <h1>This Is Home Page</h1>;
 };

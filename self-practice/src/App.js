@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {
   Home
-} from './Component/MainComponent/Home';
+} from './Component/Home';
 
 function App() {
   return ( <
