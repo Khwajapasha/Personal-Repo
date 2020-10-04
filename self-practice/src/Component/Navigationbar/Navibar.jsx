@@ -1,9 +1,9 @@
 import React from "react";
 
-import { LinkPage } from "../Navigationbar/LinkPage";
-import { ContactPage } from "../Navigationbar/ContactPage";
-import { AboutPage } from "../Navigationbar/AboutPage";
-import { HomePage } from "../Navigationbar/HomePage";
+import { LinkPage } from "../Navigationbar/LinkPage/LinkPage";
+import { ContactPage } from "../Navigationbar/ContactPage/ContactPage";
+import { AboutPage } from "../Navigationbar/AboutPage/AboutPage";
+
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 export const Navibar = () => {
@@ -30,9 +30,6 @@ export const Navibar = () => {
 
       <Router>
         <Switch>
-          <Route path="/home">
-            <HomePage />
-          </Route>
           <Route path="/link">
             <LinkPage />
           </Route>
