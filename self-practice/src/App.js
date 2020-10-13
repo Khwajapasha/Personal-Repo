@@ -8,7 +8,8 @@ import {
 
 function App() {
   return ( <
-    Home / >
+    Home className="home" / >
+    
   );
 }
 
