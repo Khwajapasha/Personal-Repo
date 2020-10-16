@@ -1,14 +1,15 @@
 import React from "react";
-import CustomGrid from "./CustomGrid/CustomGrid";
+
 import { Navibar } from "./Navigationbar/Navibar";
 
 export const Home = () => {
   return (
-    
+    <div >
     <React.Fragment>
       <Navibar />
-      <CustomGrid />
+      
     </React.Fragment>
+    </div>
   
   );
 

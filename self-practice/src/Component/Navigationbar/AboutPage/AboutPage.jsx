@@ -7,8 +7,10 @@ import Image5 from "../Images/Salman.jpg";
 import Image6 from "../Images/Khuddus.jpg";
 import Image7 from "../Images/Zeeshan.jpg";
 import { Card, CardGroup, Button } from "react-bootstrap";
+import FlexGrid from "../../FlexGrid/FlexGrid";
 export const AboutPage = () => {
   return (
+    <div>
     <CardGroup>
       <Card style={{ width: "16rem" }}>
         <Card.Img variant="top" src={Image1} />
@@ -67,5 +69,7 @@ export const AboutPage = () => {
         </Card.Body>
       </Card>
     </CardGroup>
+    <FlexGrid/>
+    </div>
   );
 };

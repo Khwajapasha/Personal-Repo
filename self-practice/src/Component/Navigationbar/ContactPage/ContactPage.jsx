@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
+import "./ContactPage.css";
+import BlogPage from "../../BlogPage/BlogPage";
+
 export const ContactPage = () => {
   const [Name, setName] = useState("");
   const [Contact, setContact] = useState("");
@@ -15,8 +18,11 @@ export const ContactPage = () => {
     setAddress("");
   };
   return (
+    
     <>
-      <input
+    <BlogPage/>
+    
+       <input
         type="text"
         value={Name}
         placeholder="Name"
@@ -57,6 +63,8 @@ export const ContactPage = () => {
       <br />
       Address:{Address}
       <br />
-    </>
+      <hr/>
+      </>
+    
   );
 };

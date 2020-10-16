@@ -1,7 +1,10 @@
 import React from "react";
+import CustomGrid from "../../CustomGrid/CustomGrid";
 import { Form, Button } from "react-bootstrap";
 export const LinkPage = () => {
   return (
+    <div>
+      <CustomGrid />
     <Form>
       <Form.Group controlId="formBasicText">
         <Form.Label>Email address</Form.Label>
@@ -22,5 +25,7 @@ export const LinkPage = () => {
         Submit
       </Button>
     </Form>
+    
+  </div>
   );
 };

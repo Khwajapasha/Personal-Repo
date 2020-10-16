@@ -1,7 +1,5 @@
 
-.button{
-    
-}
+
 .cbox{
     border: 3px solid blue;
     height: 500px;
@@ -12,16 +10,13 @@
 }
 .card1{
     width: 50rem;
-    height: 12rem;
-    background-attachment: fixed;
-    background: paleturquoise;
-    text-align: justify;
     
 }
 .card2{
     width: 14rem;
     height: auto;
     text-rendering: auto;
+    background-color: rgb(135, 212, 222);
     
     
     
