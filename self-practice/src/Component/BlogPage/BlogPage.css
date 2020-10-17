@@ -1,0 +1,71 @@
+:root {
+    --color-text: black;
+    --color-background: lightgray;
+    --title: 'Josefin Sans' , sans-serif;
+    --font-para: 'David Libra', serif;
+    --btn-color:#bbe1fa;
+    --btn-font-color: #000000;
+    --btn-font: 1.5rem;
+    --eff: .3s all ease; 
+}
+*{
+    font-family: var(--font-para);
+}
+html{
+    font-size: 62.5%;
+}
+p,label,input::placeholder {
+    font-size: 1.9rem;
+    line-height: 170%;
+    color: #6c757d;
+}
+
+figure img,
+.fab
+.fas {
+    transition: var(--eff);
+}
+a,
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    background: hsl(84, 3%, 94%);
+}
+.main-heading{
+    font-family: var(--title);
+    font-weight: bold;
+    font-size: 5rem;
+    color: #000000;
+    text-align: center;
+}
+.main-heading--para{
+    text-align: center;
+    font-size:2.2rem;
+
+}
+.main-header--div{
+    height:calc(100vh - 40vh);
+    background-image: linear-gradient(to right, rgba(0, 47, 47, 0.8) 50%, rgba(0, 0, 0, 0)),
+    url("https://technext.github.io/Office/assets/img/slider/slide4.jpg");
+    background-size:var(--bg-size);
+    color: lavender;
+}
+.main-header--div p{
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: var(--title);
+    color: var(--main-color);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.main-header--div h2{
+    font-size: 6.5rem;
+    font-weight: bold;
+    font-family: var(--title);
+    color: var(--main-color);
+    position: relative;
+    padding-bottom: 2rem;
+
+}
