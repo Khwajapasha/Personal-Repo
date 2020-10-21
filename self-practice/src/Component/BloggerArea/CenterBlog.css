@@ -1,0 +1,32 @@
+.img{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 5rem;
+    height: 5rem;
+    
+}
+.blogcard{
+    width: 40rem;
+    background-color:#F8F8F8;
+    margin-bottom: 5px;
+    
+    
+}
+
+.blogbtn{
+     margin-top: 20px;
+    
+
+}
+.blogcol{
+   
+    margin-left: 25px;
+     
+}
+.mianheader{
+     border-style: ridge;
+     height: 6rem;
+     margin-bottom: 5px;
+     width: 40rem;
+     
+}

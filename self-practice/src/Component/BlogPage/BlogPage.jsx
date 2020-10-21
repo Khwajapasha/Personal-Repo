@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Khwaja from "../BlogPage/BlogImages/Khwaja.jpg";
 import "./BlogPage.css";
 const BlogPage = () => {
   return (
