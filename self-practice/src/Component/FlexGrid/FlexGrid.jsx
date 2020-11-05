@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col, } from 'react-simple-flex-grid';
 import { Card,Button  } from 'react-bootstrap';
 import "react-simple-flex-grid/lib/main.css";
-import {Image11} from "../Navigationbar/Images/Khwaja.jpg";
+import Image11 from "../Navigationbar/Images/Khwaja.jpg";
 const FlexGrid = () => {
     return ( 
 

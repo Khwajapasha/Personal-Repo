@@ -9,7 +9,7 @@ import {
   Row,
   Container,
 } from "react-bootstrap";
-import { CardImage1 } from "../BlogPage/BlogImages/Khwaja.jpg";
+import  CardImage1  from "../BlogPage/BlogImages/Khwaja.jpg";
 import { BlogsDataWithImage } from "../BlogsDataWithImage/BlogsDataWithImage";
 const CustomGrid = () => {
   return (
