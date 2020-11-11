@@ -3,9 +3,11 @@ export const addTodo = (todo) => {
     dispatch({
       type: "ADD_TODO",
       todo: todo,
+      
     });
   };
 };
+
 export const deleteTodo = (id) => {
   return (dispatch) => {
     dispatch({
@@ -14,3 +16,4 @@ export const deleteTodo = (id) => {
     });
   };
 };
+

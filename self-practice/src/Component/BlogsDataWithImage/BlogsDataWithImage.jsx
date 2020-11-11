@@ -1,8 +1,12 @@
 import React from "react";
-
 import { Col, Button, Card, Row, Container } from "react-bootstrap";
 
-export const BlogsDataWithImage = ({BlogerImg, NameOfBlogger,DelayTime,Description}) => {
+export const BlogsDataWithImage = ({
+  BlogerImg,
+  NameOfBlogger,
+  DelayTime,
+  Description,
+}) => {
   return (
     <Container>
       <Row>
@@ -11,9 +15,10 @@ export const BlogsDataWithImage = ({BlogerImg, NameOfBlogger,DelayTime,Descripti
             <Row>
               <Col lg={2} md={2} sm={2} xl={2}>
                 <Card.Img
-                 className="rounded-circle circle w-12"
+                  className="rounded-circle circle w-12"
                   src={BlogerImg}
-                alt=""/>
+                  alt=""
+                />
                 <Button
                   variant="primary"
                   style={{
