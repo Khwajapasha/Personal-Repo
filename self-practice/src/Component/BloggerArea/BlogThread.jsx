@@ -26,9 +26,7 @@ export const BlogThread = ({ itemCurrent }) => {
             <button style={{ fontSize: "10px" }}>
               <img src={PinLogo} alt=" " style={{ width: "20px" }} />
             </button>
-            <button style={{ fontSize: "10px" }}>
-              <img src={PinLogo} alt=" " style={{ width: "20px" }} />
-            </button>
+
             <span style={{ fontSize: "12px" }}>Pin</span>
             <button
               style={{
