@@ -11,65 +11,65 @@ import FlexGrid from "../../FlexGrid/FlexGrid";
 export const AboutPage = () => {
   return (
     <div>
-    <CardGroup>
-      <Card style={{ width: "16rem" }}>
-        <Card.Img variant="top" src={Image1} />
-        <Card.Body>
-          <Card.Title>AMJAD KHAN</Card.Title>
-          <Card.Text>Founder Of PickupBizz</Card.Text>
-          <Button variant="primary">Like</Button>
-        </Card.Body>
-      </Card>{" "}
-      <Card style={{ width: "16rem" }}>
-        <Card.Img variant="top" src={Image7} />
-        <Card.Body>
-          <Card.Title>Zeeshan Khan</Card.Title>
-          <Card.Text>CEO Of PickupBizz</Card.Text>
-          <Button variant="primary">Like</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "16rem" }}>
-        <Card.Img style={{ height: "195px" }} variant="top" src={Image2} />
-        <Card.Body>
-          <Card.Title>Khwaja Pasha</Card.Title>
-          <Card.Text>React Volunteer </Card.Text>
-          <Button variant="primary">Like</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "16rem" }}>
-        <Card.Img variant="top" src={Image3} />
-        <Card.Body>
-          <Card.Title>Tausif Iqbal</Card.Title>
-          <Card.Text>Angular Volunteer</Card.Text>
-          <Button variant="primary">Like</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "16rem" }}>
-        <Card.Img variant="top" src={Image4} />
-        <Card.Body>
-          <Card.Title>Zuber Dange</Card.Title>
-          <Card.Text>Web Designing Volunteer</Card.Text>
-          <Button variant="primary">Like</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "16rem" }}>
-        <Card.Img variant="top" src={Image5} />
-        <Card.Body>
-          <Card.Title>Salmaan Khan</Card.Title>
-          <Card.Text>Backend Developer</Card.Text>
-          <Button variant="primary">Like</Button>
-        </Card.Body>
-      </Card>
-      <Card style={{ width: "16rem" }}>
-        <Card.Img style={{ height: "195px" }} variant="top" src={Image6} />
-        <Card.Body>
-          <Card.Title>Khaddus Shaikh</Card.Title>
-          <Card.Text>Head Of Volunteer</Card.Text>
-          <Button variant="primary">Like</Button>
-        </Card.Body>
-      </Card>
-    </CardGroup>
-    <FlexGrid/>
+      <CardGroup>
+        <Card style={{ width: "16rem" }}>
+          <Card.Img variant="top" src={Image1} />
+          <Card.Body>
+            <Card.Title>AMJAD KHAN</Card.Title>
+            <Card.Text>Founder Of PickupBizz</Card.Text>
+            <Button variant="primary">Like</Button>
+          </Card.Body>
+        </Card>{" "}
+        <Card style={{ width: "16rem" }}>
+          <Card.Img variant="top" src={Image7} />
+          <Card.Body>
+            <Card.Title>Zeeshan Khan</Card.Title>
+            <Card.Text>UI Developer</Card.Text>
+            <Button variant="primary">Like</Button>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "16rem" }}>
+          <Card.Img style={{ height: "195px" }} variant="top" src={Image2} />
+          <Card.Body>
+            <Card.Title>Khwaja Pasha</Card.Title>
+            <Card.Text>React Developer </Card.Text>
+            <Button variant="primary">Like</Button>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "16rem" }}>
+          <Card.Img variant="top" src={Image3} />
+          <Card.Body>
+            <Card.Title>Tausif Iqbal</Card.Title>
+            <Card.Text>Angular React Developer</Card.Text>
+            <Button variant="primary">Like</Button>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "16rem" }}>
+          <Card.Img variant="top" src={Image4} />
+          <Card.Body>
+            <Card.Title>Zuber Dange</Card.Title>
+            <Card.Text>Web Designing Developer</Card.Text>
+            <Button variant="primary">Like</Button>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "16rem" }}>
+          <Card.Img variant="top" src={Image5} />
+          <Card.Body>
+            <Card.Title>Salmaan Khan</Card.Title>
+            <Card.Text>Backend Developer</Card.Text>
+            <Button variant="primary">Like</Button>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: "16rem" }}>
+          <Card.Img style={{ height: "195px" }} variant="top" src={Image6} />
+          <Card.Body>
+            <Card.Title>Khaddus Shaikh</Card.Title>
+            <Card.Text>Backend Developer</Card.Text>
+            <Button variant="primary">Like</Button>
+          </Card.Body>
+        </Card>
+      </CardGroup>
+      <FlexGrid />
     </div>
   );
 };
