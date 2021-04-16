@@ -1,15 +1,10 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import {
-  Home
-} from './Component/Home';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { Home } from "./Component/Home";
 
 function App() {
-  return ( <
-    Home className="home" / >
-    
-  );
+  return <Home className="home" />;
 }
 
 export default App;
